@@ -23,8 +23,8 @@
     </dependencies>
 
     <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
     </properties>
 
     <build>
@@ -34,12 +34,6 @@
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
                 <version>0.8.7</version>
-                <configuration>
-                    <excludes>
-                        <exclude>**/Database.class</exclude>
-                        <exclude>**/Praktikum.class</exclude>
-                    </excludes>
-                </configuration>
                 <executions>
                     <execution>
                         <!--id выбираешь самостоятельно-->
